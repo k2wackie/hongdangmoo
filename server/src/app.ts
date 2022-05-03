@@ -2,7 +2,7 @@ import express from "express";
 const app = express();
 const path = require("path");
 
-const indexPath = path.join(__dirname + "/../client/build/");
+const indexPath = path.join(__dirname + "/../../client/build/");
 
 app.use(express.static(indexPath));
 
